@@ -1,0 +1,1584 @@
+.applecidervinegargummies{
+	background: transparent;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    display: block;
+	width: 100%;
+	height: 100%;
+	color: #000;
+    padding-top: 100px;
+    margin-top: 30px;
+}
+.aple{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background:url("../images1/apples1.png");
+	background-size: 1640px 950px;
+	padding: 100px 0;
+	color: #fff;
+}
+.aple h3{
+	margin-left: 10%;
+	font-weight: 900;
+	font-size: 40px;
+}
+.aple h1{
+	margin-left: 10%;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 80px;
+	margin-top: 4%;
+}
+.aple a{
+	position: relative;
+	display: inline-block;
+	padding: 20px 100px;
+	background: #ff0562;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 25px;
+	border-radius: 25px;
+	border-bottom: 4px solid #d00d56;
+	transition: .7s;
+	padding-right: 120px;
+	margin-left: 10%;
+	margin-top: 7%;
+	font-size: 30px;
+}
+.aple a ion-icon{
+	font-size: 45px;
+	color: #fff;
+	position: absolute;
+}
+.aple a:hover{
+	transition: .7s;
+	transform: scale(1.1);
+}
+.aple a:focus{
+	text-decoration: none;
+	outline: none;
+}
+.aple img{
+	height: 520px;
+	width: 250px;
+	position: absolute;
+	margin-top: -250px;
+	margin-left: 70%;
+	filter: drop-shadow(5px 5px 10px black);
+	animation: bottle 4s ease-in-out infinite;
+}
+@keyframes bottle{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.04);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+.gummy{
+	position: absolute;
+}
+.gummy img{
+	filter: drop-shadow(5px 5px 10px black);
+	animation: gummy 4s ease-in-out infinite;
+}
+.gummy1{
+	display: none;
+	position: absolute;
+}
+.gummy1 img{
+	width: 40%;
+	opacity: 0.8;
+	height: auto;
+	filter: drop-shadow(5px 5px 10px black);
+	animation: gummy 4s ease-in-out infinite;
+}
+@keyframes gummy{
+	0%,100%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(20px);
+	}
+}
+.left{
+	margin-left: 10%;
+}
+.mob1 img{
+	width: 30%;
+	height: auto;
+}
+.mob2 img{
+	width: 30%;
+	height: auto;
+}
+.mob3 img{
+	width: 30%;
+	height: auto;
+}
+.mob4 img{
+	width: 30%;
+	height: auto;
+}
+.mob5 img{
+	width: 40%;
+	height: auto;
+}
+.left1{
+	margin-left: 8%;
+	margin-top: 210px;
+}
+.left2{
+	margin-left: 10%;
+	margin-top: 270px;
+}
+.left3{
+	margin-left: 8%;
+	margin-top: 330px;
+}
+.left4{
+	margin-left: 10%;
+	margin-top: 390px;
+}
+.left5{
+	margin-left: 8%;
+	margin-top: 450px;
+}
+.left6{
+	margin-left: 10%;
+	margin-top: 510px;
+}
+.right{
+	margin-left: 65%;
+}
+.right1{
+	margin-left: 72%;
+	margin-top: 210px;
+}
+.right2{
+	margin-top: 270px;
+	margin-left: 70%;
+}
+.right3{
+	margin-top: 330px;
+	margin-left: 72%;
+}
+.right4{
+	margin-top: 390px;
+	margin-left: 70%;
+}
+.right5{
+	margin-top: 450px;
+	margin-left: 72%;
+}
+.right6{
+	margin-top: 510px;
+	margin-left: 70%;
+}
+.apple1{
+	width: 100%;
+	height: 100%;
+	color: #fa5a5a;
+}
+.ap{
+	color: #fa5a5a;
+	font-weight: 900;
+	font-size: 44px;
+	text-shadow: 2px 2px #f62524;
+	margin-top: 5%;
+}
+.apping{
+	width: 80%;
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.apping p{
+	width: 50%;
+	justify-content: left;
+	align-items: left;
+	position: absolute;
+	margin-left: 25%;
+	font-family: 'Cormorant Upright';
+	font-size: 20px;
+	font-weight: 600;
+}
+.apping1{
+	margin-top: 10%;
+}
+.apping .ap1{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 40px;
+	position: absolute;
+}
+.apping1 .ap1{
+	margin-right: 75%;
+	color: #e489e8;
+	text-shadow: 1px 1px #e261e8;
+}
+.apping2 .ap1{
+	margin-right: 76.5%;
+	color: #f0e9a5;
+	text-shadow: 1px 1px #efe267;
+}
+.apping3 .ap1{
+	margin-right: 78.5%;
+	color: #b0e5f7;
+	text-shadow: 1px 1px #60d2f8;
+}
+.apping4 .ap1{
+	margin-right: 82.5%;
+	color: #4ff950;
+	text-shadow: 1px 1px #4ff950;
+}
+.apping5 .ap1{
+	margin-right: 83.5%;
+	color: #f9f226;
+	text-shadow: 1px 1px #ebe304;
+}
+.apping6 .ap1{
+	margin-right: 82%;
+	color: #f9ab6b;
+	text-shadow: 1px 1px #f98628;
+}
+.apping7 .ap1{
+	margin-right: 91.5%;
+	color: #fa5a5a;
+	text-shadow: 1px 1px #f62524;
+}
+.apping7{
+	margin-bottom: 4%;
+}
+.apple2{
+	width: 100%;
+	height: 100%;
+	color: #fa5a5a;
+	padding: 50px 0;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.apple2 .ap2{
+	font-weight: 900;
+	font-size: 30px;
+	color: black;
+	text-decoration: underline;
+}
+.eachapp{
+	width: 100%;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.eachapp p{
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5%;
+	font-family: 'Cormorant Upright';
+	font-size: 25px;
+}
+.eachapp p:last-child{
+	margin-left: 15%;
+}
+.eachapp .ap3{
+	font-family: 'Cormorant Upright';
+	font-size: 25px;
+	color: black;
+	justify-content: left;
+	align-items: left;
+	width: 720px;
+	margin-left: 10px;
+}
+.eachapp span{
+	font-size: 20px;
+}
+.eachapp1{
+	margin-top: 4%;
+}
+.border1{
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 65%;
+	border: 2px solid #000;
+}
+.eachappmain{
+	border-bottom: 2px solid black;
+	font-weight: 600;
+}
+.eachapp1{
+	border-bottom: 1px solid #e489e8;
+}
+.eachapp2{
+	border-bottom: 1px solid #f0e9a5;
+}
+.eachapp3{
+	border-bottom: 1px solid #b0e5f7;
+}
+.eachapp4{
+	border-bottom: 1px solid #4ff950;
+}
+.eachapp5{
+	border-bottom: 1px solid #ebe304;
+}
+.eachapp6{
+	border-bottom: 1px solid #f98628;
+}
+.eachapp7{
+	border-bottom: 1px solid #f62524;
+}
+.eachapp8{
+	border-bottom: 1px solid #e489e8;
+}
+.apple3{
+	width: 80%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	padding: 50px 0;
+	margin-top: 0%;
+	margin-bottom: 10%;
+	background: #7fd2a4;
+	border-radius: 40px;
+}
+.apple3 .ap4{
+	font-weight: 900;
+	text-decoration: underline;
+	font-size: 30px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #fa5a5a;
+}
+.apple3 p{
+	margin-top: 2%;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Cormorant Upright';
+}
+.greenteagummies{
+	background: transparent;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    display: block;
+	width: 100%;
+	height: 100%;
+}
+.tea{
+	width: 100%;
+	height: 100%;
+	border: none;
+	background-position: right;
+	background-repeat: no-repeat;
+	background:url("../images1/teaback1.jpg");
+	background-size: 1640px 900px;
+	color: #fff;
+	padding: 100px 0;
+}
+.tea h3{
+	margin-left: 10%;
+	font-weight: 900;
+	font-size: 40px;
+}
+.tea h1{
+	margin-left: 10%;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 80px;
+	margin-top: 4%;
+}
+.tea a{
+	position: relative;
+	display: inline-block;
+	padding: 20px 100px;
+	padding-right: 120px;
+	background: #ff0562;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 25px;
+	border-radius: 25px;
+	border-bottom: 4px solid #d00d56;
+	transition: .7s;
+	margin-left: 10%;
+	font-size: 30px;
+	margin-top: 7%;
+}
+.tea a ion-icon{
+	font-size: 45px;
+	color: #fff;
+	position: absolute;
+}
+.tea a:hover{
+	transition: .7s;
+	transform: scale(1.1);
+}
+.tea a:focus{
+	text-decoration: none;
+	outline: none;
+}
+.tea img{
+	position: absolute;
+	height: 520px;
+	width: 250px;
+	margin-top: -250px;
+	margin-left: 70%;
+	filter: drop-shadow(5px 5px 10px #fff);
+	animation: bottle 4s ease-in-out infinite;
+}
+.gummyy{
+	position: absolute;
+}
+.gummyy img{
+	width: 70%;
+	height: auto;
+	filter: drop-shadow(5px 5px 10px black);
+	animation: gummy 4s ease-in-out infinite;
+}
+.mobb1 img{
+	width: 30%;
+	height: auto;
+}
+.mobb2 img{
+	width: 30%;
+	height: auto;
+}
+.mobb3 img{
+	width: 30%;
+	height: auto;
+}
+.mobb4 img{
+	width: 20%;
+	height: auto;
+}
+.rightt.mobb5{
+	margin-left: 70%;
+}
+.mobb5 img{
+	width: 40%;
+	height: auto;
+}
+.leftt{
+	margin-left: 12%;
+}
+.rightt{
+	margin-left: 38%;
+}
+.gummyy1{
+	display: none;
+	position: absolute;
+}
+.gummyy1 img{
+	width: 55%;
+	height: auto;
+	opacity: 0.8;
+	filter: drop-shadow(5px 5px 10px black);
+	animation: gummy 4s ease-in-out infinite;
+}
+.leftt1{
+	margin-left: 12%;
+	margin-top: 160px;
+}
+.leftt2{
+	margin-left: 14%;
+	margin-top: 210px;
+}
+.leftt3{
+	margin-left: 12%;
+	margin-top: 270px;
+}
+.leftt4{
+	margin-left: 14%;
+	margin-top: 330px;
+}
+.leftt5{
+	margin-left: 12%;
+	margin-top: 390px;
+}
+.rightt1{
+	margin-left: 76%;
+	margin-top: 160px;
+}
+.rightt2{
+	margin-left: 74%;
+	margin-top: 210px;
+}
+.rightt3{
+	margin-left: 76%;
+	margin-top: 270px;
+}
+.rightt4{
+	margin-left: 74%;
+	margin-top: 330px;
+}
+.rightt5{
+	margin-left: 76%;
+	margin-top: 390px;
+}
+.tea1{
+	width: 100%;
+	height: 100%;
+	color: #7fd2a4;
+}
+.tp{
+	color: #7fd2a4;
+	font-size: 44px;
+	font-weight: 900;
+	text-shadow: 2px 2px green;
+	margin-top: 5%;
+}
+.teaing{
+	width: 80%;
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.teaing p{
+	width: 50%;
+	justify-content: left;
+	align-items: left;
+	position: absolute;
+	margin-left: 25%;
+	font-family: 'Cormorant Upright';
+	font-size: 20px;
+	font-weight: 600;
+}
+.teaing1{
+	margin-top: 10%;
+}
+.teaing .tp1{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 40px;
+	position: absolute;
+}
+.teaing1 .tp1{
+	margin-right: 76%;
+	color: #e489e8;
+	text-shadow: 1px 1px #e261e8;
+}
+.teaing2 .tp1{
+	margin-right: 74.5%;
+	color: #f0e9a5;
+	text-shadow: 1px 1px #efe267;
+}
+.teaing3 .tp1{
+	margin-right: 83%;
+	color: #b0e5f7;
+	text-shadow: 1px 1px #60d2f8;
+}
+.teaing4 .tp1{
+	margin-right: 75.5%;
+	color: #4ff950;
+	text-shadow: 1px 1px #4ff950;
+}
+.teaing5 .tp1{
+	margin-right: 70.5%;
+	color: #f9f226;
+	text-shadow: 1px 1px #ebe304;
+}
+.teaing6 .tp1{
+	margin-right: 77%;
+	color: #f9ab6b;
+	text-shadow: 1px 1px #f98628;
+}
+.teaing7 .tp1{
+	margin-right: 77%;
+	color: #fa5a5a;
+	text-shadow: 1px 1px #f62524;
+}
+.teaing7{
+	margin-bottom: 5%;
+}
+.tea2{
+	width: 100%;
+	height: 100%;
+	color: #fa5a5a;
+	padding: 50px 0;
+	margin-top: 10%;
+}
+.tea2 .tp2{
+	font-weight: 900;
+	color: black;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.eachtea{
+	width: 100%;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.eachtea p{
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5%;
+	font-family: 'Cormorant Upright';
+	font-size: 25px;
+}
+.eachtea p:last-child{
+	margin-left: 15%;
+}
+.eachtea .tp3{
+	font-family: 'Cormorant Upright';
+	font-size: 25px;
+	color: black;
+	justify-content: left;
+	align-items: left;
+	width: 720px;
+	margin-left: 10px;
+}
+.eachtea span{
+	font-size: 20px;
+}
+.eachtea1{
+	margin-top: 4%;
+}
+.eachteamain{
+	border-bottom: 2px solid black;
+	font-weight: 600;
+}
+.eachtea1{
+	border-bottom: 1px solid #e489e8;
+}
+.eachtea2{
+	border-bottom: 1px solid #f0e9a5;
+}
+.eachtea3{
+	border-bottom: 1px solid #b0e5f7;
+}
+.eachtea4{
+	border-bottom: 1px solid #4ff950;
+}
+.eachtea5{
+	border-bottom: 1px solid #ebe304;
+}
+.eachtea6{
+	border-bottom: 1px solid #f98628;
+}
+.tea3{
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	color: #fff;
+	padding: 50px 0;
+	margin-top: 5%;
+	background: #151729;
+	border-radius: 40px;
+}
+.tea3 .tp4{
+	font-weight: 900;
+	color: #7fd2a4;
+	text-decoration: underline;
+	font-size: 30px;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.tea3 p{
+	margin-top: 2%;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Cormorant Upright';
+}
+@media (max-width: 767px) {
+.applecidervinegargummies{
+    padding-top: 60px;
+}
+.aple{
+	background-size: 550px 400px;
+	padding: 80px 0;
+}
+.aple a{
+	padding: 20px 50px;
+	padding-right: 70px;
+	margin-left: 23%;
+	margin-top: 95%;
+	margin-bottom: -8%;
+	font-size: 20px;
+}
+.aple h3{
+	font-size: 30px;
+}
+.aple h1{
+	font-size: 50px;
+}
+.aple a ion-icon{
+	font-size: 30px;
+}
+.aple img{
+	width: 140px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 30%;
+}
+.gummy{
+	position: absolute;
+}
+.gummy img{
+	width: 16%;
+	height: auto;
+}
+.mob1 img{
+	width: 26%;
+	height: auto;
+}
+.mob2 img{
+	width: 20%;
+	height: auto;
+}
+.mob3 img{
+	width: 20%;
+	height: auto;
+}
+.mob4 img{
+	width: 20%;
+	height: auto;
+}
+.mob5 img{
+	width: 25%;
+	height: auto;
+}
+.border1{
+	width: 90%;
+}
+.gummy1{
+	display: none;
+}
+.left{
+	margin-left: 5%;
+}
+.mob1{
+	margin-top: 20px;
+}
+.mob2{
+	margin-top: 830px;
+}
+.mob3{
+	margin-top: 1980px;
+}
+.mob4{
+	margin-top: 430px;
+}
+.mob5{
+	margin-top: 1460px;
+}
+.right{
+	margin-left : 15%;
+}
+.apple1{
+	margin-top: 20%;
+	padding-bottom: 1780px; 
+}
+.ap{
+	font-size: 25px;
+}
+.apping{
+	width: 80%;
+	display: block;
+}
+.apping p{
+	width: 80%;
+	margin-left: 10%;
+	font-size: 20px;
+	font-weight: 600;
+}
+.apping1{
+	margin-top: 0%;
+}
+.apping .ap1{
+	font-size: 30px;
+}
+.apping1 .ap1{
+	margin-left: 10%;
+	margin-top: 50px;
+}
+.apping1 p{
+	margin-top: 100px;
+}
+.apping2 .ap1{
+	margin-left: 10%;
+	margin-top: 270px;
+}
+.apping2 p{
+	margin-top: 320px;
+}
+.apping3 .ap1{
+	margin-left: 10%;
+	margin-top: 530px;
+}
+.apping3 p{
+	margin-top: 580px;
+}
+.apping4 .ap1{
+	margin-left: 10%;
+	margin-top: 850px;
+}
+.apping4 p{
+	margin-top: 900px;
+}
+.apping5 .ap1{
+	margin-left: 0%;
+	width: 100%;
+	margin-top: 1230px;
+}
+.apping5 p{
+	margin-top: 1290px;
+}
+.apping6 .ap1{
+	margin-left: 0%;
+	width: 100%;
+	margin-top: 1490px;
+}
+.apping6 p{
+	margin-top: 1550px;
+}
+.apping7 .ap1{
+	margin-left: 0%;
+	width: 100%;
+	margin-top: 1720px;
+}
+.apping7 p{
+	margin-top: 1790px;
+}
+.apping7{
+	margin-bottom: 4%;
+}
+.apple2{
+	padding: 250px 0;
+	padding-bottom: 100px;
+	margin-bottom: 0%;
+}
+.apple2 .ap2{
+	font-size: 20px;
+}
+.eachapp{
+	width: 80%;
+	margin-top: 5%;
+}
+.eachapp p{
+	width: 100%;
+	margin-left: 5%;
+	font-size: 13px;
+}
+.eachapp p:last-child{
+	margin-left: 5%;
+}
+.eachapp .ap3{
+	font-size: 12px;
+	width: 280px;
+}
+.eachapp span{
+	font-size: 8px;
+}
+.eachappmain{
+	margin-top: 10%;
+}
+.eachapp1{
+	margin-top: 5%;
+}
+.apple3{
+	padding: 40px 0;
+	margin-bottom: 20%;
+}
+.apple3 .ap4{
+	font-size: 15px;
+}
+.apple3 p{
+	margin-top: 10%;
+	font-size: 15px;
+}
+.greenteagummies{
+	padding-top: 30px;
+}
+.tea{
+	background-size: 540px 400px;
+	padding: 80px 0;
+	background-position: top;
+}
+.tea h3{
+	font-size: 30px;
+}
+.tea h1{
+	font-size: 50px;
+}
+.tea a{
+	padding: 20px 50px;
+	padding-right: 70px;
+	margin-left: 23%;
+	margin-top: 95%;
+	margin-bottom: -8%;
+	font-size: 20px;
+}
+.tea a ion-icon{
+	font-size: 30px;
+}
+.tea img{
+	width: 140px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 30%;
+}
+.gummyy{
+	position: absolute;
+}
+.gummyy img{
+	width: 25%;
+	height: auto;
+}
+.mobb1 img{
+	width: 30%;
+	margin-top: -50px;
+	height: auto;
+}
+.mobb2 img{
+	width: 25%;
+	margin-top: -240px;
+	height: auto;
+}
+.mobb3 img{
+	width: 30%;
+	height: auto;
+	margin-top: -380px;
+}
+.mobb4 img{
+	width: 40%;
+	margin-top: -100px;
+	height: auto;
+}
+.rightt.mobb5{
+	margin-left: 30%;
+}
+.mobb5 img{
+	width: 30%;
+	margin-top: -110px;
+	height: auto;
+}
+.leftt{
+	margin-left: 3%;
+}
+.rightt{
+	margin-left: 40%;
+}
+.gummyy1{
+	display: none;
+}
+.mobb1{
+	margin-top: 40px;
+}
+.mobb2{
+	margin-top: 750px;
+}
+.mobb3{
+	margin-top: 1650px;
+}
+.mobb4{
+	margin-top: 400px;
+}
+.mobb5{
+	margin-top: 1120px;
+}
+.tea1{
+	margin-top: 20%;
+	padding-bottom: 1100px;/*1450px;*/ 
+}
+.tp{
+	font-size: 25px;
+}
+.teaing{
+	width: 80%;
+	display: block;
+}
+.teaing p{
+	width: 90%;
+	margin-left: 10%;
+	font-size: 20px;
+	font-weight: 600;
+}
+.teaing1{
+	margin-top: 0%;
+}
+.teaing .tp1{
+	font-size: 30px;
+}
+/*.teaing1 .tp1{
+	margin-left: 5%;
+	margin-top: 50px;
+}
+.teaing1 p{
+	margin-top: 100px;
+}
+.teaing2 .tp1{
+	margin-left: 5%;
+	margin-top: 220px;
+}
+.teaing2 p{
+	margin-top: 270px;
+}*/
+.teaing3 .tp1{
+	margin-left: 5%;
+	margin-top: 50px;/*430px;*/
+}
+.teaing3 p{
+	margin-top: 100px;/*480px;*/
+}
+.teaing4 .tp1{
+	margin-left: 5%;
+	margin-top: 320px;/*690px;*/
+}
+.teaing4 p{
+	margin-top: 370px;/*740px;*/
+}
+.teaing5 .tp1{
+	margin-left: 0%;
+	width: 100%;
+	margin-top: 550px;/*910px;*/
+}
+.teaing5 p{
+	margin-top: 600px;/*960px;*/
+}
+.teaing6 .tp1{
+	margin-left: 2%;
+	width: 100%;
+	margin-top: 790px;/*1140px;*/
+}
+.teaing6 p{
+	margin-top: 840px;/*1190px;*/
+}
+.teaing7 .tp1{
+	margin-left: 2%;
+	width: 100%;
+	margin-top: 1080px;/*1420px;*/
+}
+.teaing7 p{
+	margin-top: 1130px;/*1470px;*/
+}
+.teaing7{
+	margin-bottom: 4%;
+}
+.tea2{
+	padding: 250px 0;
+	padding-bottom: 100px;
+	margin-bottom: 0%;
+}
+.tea2 .tp2{
+	font-size: 20px;
+}
+.eachtea{
+	width: 80%;
+	margin-top: 5%;
+}
+.eachtea p{
+	width: 100%;
+	margin-left: 5%;
+	font-size: 13px;
+}
+.eachtea p:last-child{
+	margin-left: 5%;
+}
+.eachtea .tp3{
+	font-size: 12px;
+	width: 280px;
+}
+.eachtea span{
+	font-size: 8px;
+}
+.eachteamain{
+	margin-top: 10%;
+}
+.eachtea1{
+	margin-top: 5%;
+}
+.tea3{
+	padding: 40px 0;
+	margin-bottom: 0%;
+}
+.tea3 .tp4{
+	font-size: 15px;
+}
+.tea3 p{
+	margin-top: 10%;
+	font-size: 15px;
+}
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+.applecidervinegargummies{
+    padding-top: 60px;
+}
+.aple{
+	background-size: cover;
+	padding: 80px 0;
+}
+.aple a{
+	padding: 20px 50px;
+	padding-right: 90px;
+	margin-left: 32%;
+	margin-top: 95%;
+	margin-bottom: -8%;
+	font-size: 40px;
+}
+.aple h3{
+	font-size: 70px;
+}
+.aple h1{
+	font-size: 90px;
+}
+.aple a ion-icon{
+	font-size: 60px;
+}
+.aple img{
+	width: 300px;
+	height: 650px;
+	margin-top: 30px;
+	margin-left: 32%;
+}
+.border1{
+	width: 90%;
+}
+.gummy{
+	position: absolute;
+}
+.gummy img{
+	width: 16%;
+	height: auto;
+}
+.mob1 img{
+	width: 28%;
+	height: auto;
+}
+.mob2 img{
+	width: 30%;
+	height: auto;
+}
+.mob3 img{
+	width: 40%;
+	height: auto;
+}
+.mob4 img{
+	width: 30%;
+	height: auto;
+}
+.mob5 img{
+	width: 38%;
+	height: auto;
+}
+.gummy1{
+	display: none;
+}
+.left{
+	margin-left: 2%;
+}
+.mob1{
+	margin-top: -50px;
+}
+.mob2{
+	margin-top: 720px;
+}
+.mob3{
+	margin-top: 1900px;
+}
+.mob4{
+	margin-top: 380px;
+}
+.mob5{
+	margin-top: 1360px;
+}
+.right{
+	margin-left : 40%;
+}
+.apple1{
+	margin-top: 20%;
+	padding-bottom: 1780px; 
+}
+.ap{
+	font-size: 35px;
+}
+.apping{
+	width: 80%;
+	display: block;
+}
+.apping p{
+	width: 80%;
+	margin-left: 12%;
+	font-size: 25px;
+	font-weight: 600;
+}
+.apping1{
+	margin-top: 0%;
+}
+.apping .ap1{
+	font-size: 35px;
+}
+.apping1 .ap1{
+	margin-left: 10%;
+	margin-top: 80px;
+}
+.apping1 p{
+	margin-top: 150px;
+}
+.apping2 .ap1{
+	margin-left: 10%;
+	margin-top: 270px;
+}
+.apping2 p{
+	margin-top: 320px;
+}
+.apping3 .ap1{
+	margin-left: 10%;
+	margin-top: 530px;
+}
+.apping3 p{
+	margin-top: 580px;
+}
+.apping4 .ap1{
+	margin-left: 10%;
+	margin-top: 850px;
+}
+.apping4 p{
+	margin-top: 900px;
+}
+.apping5 .ap1{
+	margin-left: 0%;
+	width: 100%;
+	margin-top: 1230px;
+}
+.apping5 p{
+	margin-top: 1290px;
+}
+.apping6 .ap1{
+	margin-left: 0%;
+	width: 100%;
+	margin-top: 1490px;
+}
+.apping6 p{
+	margin-top: 1550px;
+}
+.apping7 .ap1{
+	margin-left: 0%;
+	width: 100%;
+	margin-top: 1720px;
+}
+.apping7 p{
+	margin-top: 1790px;
+}
+.apping7{
+	margin-bottom: 4%;
+}
+.apple2{
+	padding: 250px 0;
+	padding-bottom: 100px;
+	margin-bottom: 0%;
+}
+.apple2 .ap2{
+	font-size: 40px;
+}
+.eachapp{
+	width: 80%;
+	margin-top: 5%;
+}
+.eachapp p{
+	width: 100%;
+	margin-left: 5%;
+	font-size: 23px;
+}
+.eachapp p:last-child{
+	margin-left: 5%;
+}
+.eachapp .ap3{
+	font-size: 23px;
+	width: 690px;
+}
+.eachapp span{
+	font-size: 20px;
+}
+.eachappmain{
+	margin-top: 10%;
+}
+.eachapp1{
+	margin-top: 5%;
+}
+.apple3{
+	padding: 40px 0;
+	margin-bottom: 20%;
+}
+.apple3 .ap4{
+	font-size: 35px;
+}
+.apple3 p{
+	margin-top: 10%;
+	font-size: 25px;
+}
+.greenteagummies{
+	padding-top: 30px;
+}
+.tea{
+	background-size: cover;
+	padding: 80px 0;
+	background-position: top;
+}
+.tea h3{
+	font-size: 70px;
+}
+.tea h1{
+	font-size: 100px;
+}
+.tea a{
+	padding: 20px 50px;
+	padding-right: 90px;
+	margin-left: 32%;
+	margin-top: 95%;
+	margin-bottom: -8%;
+	font-size: 40px;
+}
+.tea a ion-icon{
+	font-size: 60px;
+}
+.tea img{
+	width: 300px;
+	height: 650px;
+	margin-top: 30px;
+	margin-left: 32%;
+}
+.gummyy{
+	position: absolute;
+}
+.gummyy img{
+	width: 25%;
+	height: auto;
+}
+.mobb1 img{
+	width: 30%;
+	margin-top: -50px;
+	height: auto;
+}
+.mobb2 img{
+	width: 30%;
+	margin-top: -210px;
+	height: auto;
+}
+.mobb3 img{
+	width: 40%;
+	height: auto;
+	margin-top: -580px;
+}
+.mobb4 img{
+	width: 40%;
+	margin-top: -160px;
+	height: auto;
+}
+.rightt.mobb5{
+	margin-left: 52%;
+}
+.mobb5 img{
+	width: 37%;
+	margin-top: -240px;
+	height: auto;
+}
+.leftt{
+	margin-left: 3%;
+}
+.rightt{
+	margin-left: 40%;
+}
+.gummyy1{
+	display: none;
+}
+.mobb1{
+	margin-top: 40px;
+}
+.mobb2{
+	margin-top: 750px;
+}
+.mobb3{
+	margin-top: 1650px;
+}
+.mobb4{
+	margin-top: 400px;
+}
+.mobb5{
+	margin-top: 1120px;
+}
+.tea1{
+	margin-top: 20%;
+	padding-bottom: 900px;/*1450px;*/ 
+}
+.tp{
+	font-size: 40px;
+}
+.teaing{
+	width: 80%;
+	display: block;
+}
+.teaing p{
+	width: 80%;
+	margin-left: 15%;
+	font-size: 25px;
+	font-weight: 600;
+}
+.teaing1{
+	margin-top: 0%;
+}
+.teaing .tp1{
+	font-size: 40px;
+}/*
+.teaing1 .tp1{
+	margin-left: 12%;
+	margin-top: 90px;
+}
+.teaing1 p{
+	margin-top: 150px;
+}
+.teaing2 .tp1{
+	margin-left: 12%;
+	margin-top: 220px;
+}
+.teaing2 p{
+	margin-top: 270px;
+}*/
+.teaing3 .tp1{
+	margin-left: 12%;
+	margin-top: 70px;/* 430px;*/
+}
+.teaing3 p{
+	margin-top: 130px;/* 480px;*/
+}
+.teaing4 .tp1{
+	margin-left: 12%;
+	margin-top: 320px;/* 690px;*/
+}
+.teaing4 p{
+	margin-top: 380px;/* 740px;*/
+}
+.teaing5 .tp1{
+	margin-left: 0%;
+	width: 100%;
+	margin-top: 530px;/* 910px;*/
+}
+.teaing5 p{
+	margin-top: 590px;/* 960px;*/
+}
+.teaing6 .tp1{
+	margin-left: 2%;
+	width: 100%;
+	margin-top:  730px;/*1140px;*/
+}
+.teaing6 p{
+	margin-top:  790px;/*1190px;*/
+}
+.teaing7 .tp1{
+	margin-left: 2%;
+	width: 100%;
+	margin-top:  950px;/*1420px;*/
+}
+.teaing7 p{
+	margin-top:  1010px;/*1470px;*/
+}
+.teaing7{
+	margin-bottom: 4%;
+}
+.tea2{
+	padding: 250px 0;
+	padding-bottom: 100px;
+	margin-bottom: 0%;
+}
+.tea2 .tp2{
+	font-size: 40px;
+}
+.eachtea{
+	width: 80%;
+	margin-top: 5%;
+}
+.eachtea p{
+	width: 100%;
+	margin-left: 5%;
+	font-size: 23px;
+}
+.eachtea p:last-child{
+	margin-left: 5%;
+}
+.eachtea .tp3{
+	font-size: 23px;
+	width: 690px;
+}
+.eachtea span{
+	font-size: 20px;
+}
+.eachteamain{
+	margin-top: 10%;
+}
+.eachtea1{
+	margin-top: 5%;
+}
+.tea3{
+	padding: 40px 0;
+	margin-bottom: 0%;
+}
+.tea3 .tp4{
+	font-size: 35px;
+}
+.tea3 p{
+	margin-top: 10%;
+	font-size: 25px;
+}
+}
+@media (orientation:landscape) and (max-width: 1200px){
+  footer,header,.applecidervinegargummies,.greenteagummies{
+    height: 100vw;
+    display: none;
+  }
+  .landscape{
+  	display: flex;
+  	width: 100vw;
+  	height: 100vh;
+  	align-items: center;
+  	justify-content: center;
+  	background: url("../images1/logo  new.png");
+  	filter: drop-shadow(2px 2px 2px #000);
+  	background-repeat: no-repeat;
+  	background-size: 20rem 15rem;
+  	background-position: top;	
+  }
+  .landscape p{
+  	color: #7fd2a4;
+  	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	margin-top: 12rem;
+	font-size:4rem;
+  }
+}

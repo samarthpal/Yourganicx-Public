@@ -1,0 +1,70 @@
+/*Gallery section*/
+
+.swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 430px;
+      height: 550px;
+      justify-content: center;
+      align-items: center; 
+}
+.swiper-slide .imagebx{
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.box1{
+  background-image: url(../images1/applecidervinegargummies.png);
+  background-size: 200px 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box2{
+  background-image: url(../images1/greenteagummies.png);
+  background-size: 200px 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* responsive rules*/
+@media (max-width:767px){
+	
+.swiper-slide {
+      width: 350px;
+      height: 500px;
+      margin-left: 10%;
+}
+.swiper-slide .imagebx{
+    width: 100%;  
+    height: 420px;
+    margin-left:5px;
+}
+.box1{
+  background-size: auto 420px;
+}
+.box2{
+  background-size: auto 420px;
+}
+}
+@media (max-width:1200px) and (min-width: 768px){
+  
+.swiper-slide {
+      width: 500px;
+      height: 650px;
+      margin-left: 30%;
+}
+.swiper-slide .imagebx{
+    width: 100%;  
+    height: 520px;
+    margin-left:5px;
+}
+.box1{
+  background-size: auto 520px;
+}
+.box2{
+  background-size: auto 520px;
+}
+}

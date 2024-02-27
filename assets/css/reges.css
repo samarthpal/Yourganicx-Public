@@ -1,0 +1,375 @@
+body{
+	background-image: url("../images1/logo  new.png");
+	background-size: 400px 300px;
+	background-repeat: no-repeat;
+	background-position: top-left;
+	align-items: center;
+	justify-content: center;
+	animation: back 1s ease-in-out infinite;
+}
+@keyframes back{
+	0%{
+		background-size: 400px 300px;
+	}
+	50%{
+		background-size: 440px 340px;
+	}
+	100%{
+		background-size: 400px 300px;
+	}
+}
+::selection {
+	color: #fff;
+ 	background: #7fd2a4;
+}
+h1{
+	margin-top: 50px;
+	font-size: 80px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	color: #7fd2a4;
+}
+form{
+	font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+form input{
+	border-radius: 10px;
+	border: 2px solid #7fd2a4;
+	width: 20%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #000;
+}
+form input:focus{
+	outline: none;
+	text-decoration: none;
+}
+form select{
+	border-radius: 10px;
+	border: 2px solid #7fd2a4;
+	color: #7fd2a4;
+}
+form select:focus{
+	outline: none;
+	text-decoration: none;
+}
+#first_name{
+	margin-left: 50px;
+}
+#last_name{
+	margin-left: 46px;
+}
+#address{
+	margin-left: 65px;
+}
+#apartment{
+	margin-left: 43px;
+}
+#pin{
+	margin-left: 106px;
+}
+#state{
+	margin-left: 89px;
+	height: 3.5%;
+	width: 20%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#city{
+	margin-left: 105px;
+	height: 3.5%;
+	width: 20%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#country{
+	color: #7fd2a4;
+	margin-left: 66px;
+	background-color: #fff;
+}
+#mobile{
+	margin-left: 77px;
+}
+#email{
+	margin-left: 91px;
+}
+#amt{
+	color: #7fd2a4;
+	margin-left: 57px;
+	background-color: #fff;
+	width: 5%;
+	margin-right: 230px;
+}
+.back{
+	border-radius: 10px;
+	border: 2px solid #7fd2a4;
+	left: 40%;
+	text-decoration: none;
+	color: #7fd2a4;
+	padding: 4px 30px;
+	padding-right: 15px;
+	margin-top: 50px;
+	transition: 0.7s;
+	position: absolute;
+}
+.back strong{
+	font-weight: 600;
+	margin-left: 5px;
+}
+.back ion-icon{
+	font-size: 20px;
+	margin-left: -20px;
+	margin-top: 2px;
+	position: absolute;
+	margin-right: 25px;
+}
+#btn{
+	color: #7fd2a4;
+	border-radius: 10px;
+	border: 2px solid #7fd2a4;
+	margin-top: 50px;
+	width: 8%;
+	transition: 0.7s;
+	margin-left: 90px;
+	cursor: pointer;
+	background-color: #fff;
+	height: 5%;
+}
+#btn strong{
+		font-weight: 800;
+}
+.back:hover{
+	background-color: #7fd2a4;
+	color: #fff;
+	transform: scale(1.2);
+	transition: 0.7s;
+}
+#btn:hover{
+	background-color: #7fd2a4;
+	color: #fff;
+	transform: scale(1.2);
+	transition: 0.7s;
+}
+#btn:focus,.back:focus{
+	outline: none;
+	text-decoration: none;
+}
+.landscape{
+	display: none;
+}
+@media (max-width: 767px) {
+body{
+	background-size: 210px 160px;
+	background-position: top;
+}
+@keyframes back{
+	0%{
+		background-size: 210px 160px;
+	}
+	50%{
+		background-size: 220px 170px;
+	}
+	100%{
+		background-size: 210px 160px;
+	}
+}
+h1{
+	margin-top: 50%;
+	font-size: 45px;
+}
+form input{
+	width: 60%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+#first_name{
+	margin-left: 20px;
+}
+#last_name{
+	margin-left: 16px;
+}
+#address{
+	margin-left: 35px;
+}
+#apartment{
+	margin-left: 13px;
+}
+#pin{
+	margin-left: 76px;
+}
+#state{
+	margin-left: 60px;
+	margin-right: 0px;
+	width: 60%;
+	margin-top: 5px;
+	height: 3.8%;
+	margin-bottom: 8px;
+}
+#city{
+	margin-left: 74px;
+	margin-right: 0px;
+	width: 60%;
+	height: 3.8%;
+	margin-bottom: 5px;
+}
+#country{
+	color: #7fd2a4;
+	margin-left: 36px;
+	background-color: #fff;
+}
+#mobile{
+	margin-left: 47px;
+}
+#email{
+	margin-left: 61px;
+}
+#amt{
+	color: #7fd2a4;
+	margin-left: 40px;
+	background-color: #fff;
+	width: 20%;
+	margin-right: 140px;
+}
+#btn{
+	margin-top: 10px;
+	width: 28%;
+	margin-left: 120px;
+}
+.back{
+	left: 23%;
+	padding: 3px 25px;
+	padding-right: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.back ion-icon{
+	font-size: 18px;
+	margin-left: -20px;
+	margin-top: 1px;
+	margin-right: 25px;
+}
+}
+@media (max-width:1200px) and (min-width: 768px){
+body{
+	background-size: 350px 260px;
+	background-position: top;
+}
+@keyframes back{
+	0%{
+		background-size: 350px 260px;
+	}
+	50%{
+		background-size: 360px 270px;
+	}
+	100%{
+		background-size: 350px 260px;
+	}
+}
+h1{
+	margin-top: 40%;
+	font-size: 60px;
+}
+form input{
+	width: 70%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	
+}
+#first_name{
+	margin-left: 20px;
+}
+#last_name{
+	margin-left: 16px;
+}
+#address{
+	margin-left: 35px;
+}
+#apartment{
+	margin-left: 13px;
+}
+#pin{
+	margin-left: 76px;
+}
+#state{
+	margin-left: 60px;
+	margin-right: 0px;
+	width: 70%;
+	margin-top: 5px;
+	height: 3%;
+	margin-bottom: 8px;
+}
+#city{
+	margin-left: 74px;
+	margin-right: 0px;
+	width: 70%;
+	height: 3%;
+	margin-bottom: 5px;
+}
+#country{
+	color: #7fd2a4;
+	margin-left: 36px;
+	background-color: #fff;
+}
+#mobile{
+	margin-left: 47px;
+}
+#email{
+	margin-left: 61px;
+}
+#amt{
+	color: #7fd2a4;
+	margin-left: 40px;
+	background-color: #fff;
+	width: 20%;
+	margin-right: 140px;
+}
+#btn{
+	margin-top: 10px;
+	width: 28%;
+	font-size: 20px;
+	margin-left: 300px;
+}
+.back{
+	left: 25%;
+	padding: 5px 60px;
+	padding-right: 40px;
+	margin-top: 10px;
+	font-size: 24px;
+}
+.back ion-icon{
+	font-size: 32px;
+	margin-left: -28px;
+	margin-top: 1px;
+	margin-right: 35px;
+}
+}
+@media (orientation:landscape) and (max-width: 1200px){
+	h1,form{
+		height: 100vw;
+    	display: none;
+	}
+	body{
+		background: none; 
+	}
+	.landscape{
+  	display: flex;
+  	width: 100vw;
+  	height: 100vh;
+  	align-items: center;
+  	justify-content: center;
+  	background: url("../images1/logo  new.png");
+  	filter: drop-shadow(2px 2px 2px #000);
+  	background-repeat: no-repeat;
+  	background-size: 20rem 15rem;
+  	background-position: top;	
+  }
+  .landscape p{
+  	color: #7fd2a4;
+  	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	margin-top: 18rem;
+	font-size:4rem;
+  }
+}

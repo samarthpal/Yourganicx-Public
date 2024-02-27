@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900%26display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700%26display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <title>YAY! Order Placed</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/order_success.css">
+
+    <link rel="icon" href="assets/images1/logo  new.png" type="image/png">
+</head>
+<body>
+	<div class="success" align="center" id="content">
+		<img src="assets/images1/tick1.png">
+		<h1>Thank You For Your Order<span>!</span></h1>
+		<h3><span>Order Confirmation #</span><input type="textbox" name="payment_id" id="Id" placeholder="example" value="101235465" disabled="disabled"/></h3>
+		<p class="list">Purchased Item(
+			<input type="textbox" name="qty" id="QTY" placeholder="Quantity" value="5" disabled="disabled"/>)
+			<input type="textbox" name="total" id="ttl" placeholder="Total" value="₹20712.00" disabled="disabled"/>
+		</p><br>
+		<p class="list1">
+			Shipping + Handling<span>Free</span>
+		</p><br>
+		<p class="list2">
+			Sales Tax<span>Inclusive</span>
+		</p><br>
+		<hr>
+		<p class="list3">
+			<strong>TOTAL</strong><input type="textbox" name="total" id="ttl" placeholder="Total" value="₹20712.00" disabled="disabled"/>
+		</p>
+		<hr>
+		<p class="list4">
+			<span><strong>Delivery Address</strong></span><br><input type="textbox" name="Address" id="add" placeholder="Address" value="abc no 2 gali no 5 ,reti mohalla,modinagar,lonavala,banglore,India" disabled="disabled"/>
+		</p>
+		<a href="index.html">Shop Again<ion-icon name="arrow-forward-circle-sharp"></ion-icon></a>
+		<button id="cmd" onclick="window.print()">Print Receipt<ion-icon name="arrow-down-circle-sharp"></ion-icon></button>
+	</div>
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+	<script type="text/javascript">
+		localStorage.removeItem('cartNumbers');
+    	localStorage.removeItem("totalCost");
+    	localStorage.removeItem('productsInCart');
+	</script>	
+</body>
+</html>    	
